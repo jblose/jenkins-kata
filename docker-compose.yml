@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  jenkins-kata:
+    image: jenkins-kata:latest
+    hostname: jenkins
+    ports:
+      - "8080:8080"
